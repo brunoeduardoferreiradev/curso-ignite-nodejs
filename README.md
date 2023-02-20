@@ -13,7 +13,7 @@ Anotações, códigos fonte e projetos desenvolvidos durante o Curso Ignite - No
 * Início :  <b>00/00/0000</b> - Finalizado : <b>00/00/000 </b>
 * Curso : <b>Ignite NodeJS</b>
 * Professor : <b>RocketSeat</b>
-* Link do Curso : [Ignite NodeJS]https://www.rocketseat.com.br/)
+* Link do Curso : [Ignite NodeJS](https://www.rocketseat.com.br/)
 
 ## Linguagem & Ferramentas Utilizadas: 
 
