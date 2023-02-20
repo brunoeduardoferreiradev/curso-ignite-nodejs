@@ -33,6 +33,7 @@ Anotações, códigos fonte e projetos desenvolvidos durante o Curso Ignite - No
 
 ## Ementa
 * 📁- Capítulo 01
-  * - Fundamentos do NodeJS
-  * - Primeiro Projeto com NodeJS
-  
+  * 📌- Fundamentos do NodeJS
+  * 📌- Primeiro Projeto com NodeJS
+* 📁- Capítulo 02
+  * 📌- Iniciando a API
