@@ -5,10 +5,10 @@
 </div>
 
 ## Dados do Curso
-![Badge em Status](https://img.shields.io/badge/STATUS-PENDENTE-red?style=for-the-badge)
+![Badge em Status](https://img.shields.io/badge/STATUS-CURSANDO-yellow?style=for-the-badge)
 
-* Início :  <b>00/00/0000</b> - Finalizado : <b>00/00/000 </b>
-* Curso : <b>Ignite NodeJS</b>
+* Início :  <b>21/02/2023</b> - Finalizado : <b>00/00/000 </b>
+* Curso : <b>Ignite NodeJS - Trilha 2022</b>
 * Professor : <b>RocketSeat</b>
 * Link do Curso : [Ignite NodeJS](https://www.rocketseat.com.br/)
 
@@ -32,5 +32,25 @@
 * 📁- Capítulo 01
   * 📌- Fundamentos do NodeJS
   * 📌- Primeiro Projeto com NodeJS
+  * ⚔ - Desafio: Conceitos do Node.js 
+  * ⚔ - Desafio: Trabalhando com Middlewares
+  * ⚔ - Desafio: Corrigindo o código
 * 📁- Capítulo 02
   * 📌- Iniciando a API
+  * ⚔ - Desafio: Introdução ao SOLID
+  * ⚔ - Desafio: Documentando com Swagger
+* 📁- Capítulo 03
+  * 📌- Continuando a aplicação
+  * ⚔ - Desafio: Database Queries
+  * ⚔ - Desafio: Modelagem do banco de dados
+* 📁- Capítulo 04
+  * 📌- Testes e regras de negócio
+  * ⚔ - Desafio: Testes unitários
+  * ⚔ - Desafio: Testes de integração
+* 📁- Capítulo 05
+  * 📌- Trabalhando com refresh_token e e-mail
+  * ⚔ - Desafio: Transferências com a FinAPI
+* 📁- Capítulo 06
+  * 📌- Deploy
+  * 📌- Serverless
+  * ⚔ - Desafio: Construindo com serverless
