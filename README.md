@@ -1,7 +1,7 @@
 # Curso Ignite - NodeJS - RocketSeat
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/125761885/220010249-c9d6bfb8-b856-40e7-b91f-7858a332133c.png" >
+  <img src="https://user-images.githubusercontent.com/125761885/220187321-d5887369-0ce6-414b-aecf-5c6eb0068196.png" >
 </div>
 
 ## Dados do Curso
