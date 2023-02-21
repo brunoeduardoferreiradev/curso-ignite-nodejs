@@ -13,6 +13,9 @@ function verifyIfExistsAccountCPF(request, response, next) {
 
   const customer = customers.find((customer) => customer.cpf === cpf);
 
+  console.log(cpf);
+  console.log(customer);
+
   if (!customer) {
     return response.status(400).json({ error: "Customer Not Found" })
   }
@@ -30,6 +33,13 @@ function getBalance(statement) {
   }, 0);
   return balance;
 }
+
+// GET /account - Traz a conta 
+app.get("/account", verifyIfExistsAccountCPF, (request, response) => {
+  const { customer } = request;
+
+  return response.json(customer);
+})
 
 // POST /account - Cria uma conta
 app.post("/account", (request, response) => {
@@ -51,9 +61,22 @@ app.post("/account", (request, response) => {
     statement: []
   });
 
-  return response.status(201).json({ message: `ID : ${customers[0].id}` });
+  return response.status(201).json({ message: `ID : ${customers[0].id}` }).send();
 
 })
+
+// PUT /account  Atualiza o nome do usuario na conta  
+app.put("/account", verifyIfExistsAccountCPF, (request, response) => {
+  const { name } = request.body;
+  const { customer } = request;
+
+  console.log(name);
+  console.log(customer);
+
+  customer.name = name;
+
+  return response.status(201).send();
+});
 
 // GET /statement pegar o extrato do cliente
 app.get("/statement", verifyIfExistsAccountCPF, (request, response) => {
