@@ -13,21 +13,21 @@
 ![UUID](https://img.shields.io/badge/-UUID-green?style=for-the-badge&logo=uuid)
 
 ## Requisitos
-* [✔] Deve ser possível criar uma conta
-   * [✔] Não deve ser possível cadastrar uma conta com CPF já existente
-* [✔] Deve ser possível buscar o extrato bancário do cliente
-   * [✔] Não deve ser possível buscar extrato em uma conta não existente
-* [✔] Deve ser possível realizar um depósito
-   * [✔] Não deve ser possível fazer depósito em uma conta não existente
-* [✔] Deve ser possível realizar um saque
-   * [✔] Não deve ser possível fazer saque em uma conta não existente
-   * [✔] Não deve ser possível fazer saque quando o saldo for insuficiente
-* [✔] Deve ser possível buscar o extrato bancário do cliente por data
-* [✔] Deve ser possível atualizar dados da conta do cliente
-* [✔] Deve ser possível obter dados da conta do cliente
-* [✔] Deve ser possível deletar uma conta
-   * [✔] Não deve ser possível excluir uma conta não existente
-* [✔] Deve ser possível retornar o balance
+* [X] Deve ser possível criar uma conta
+   * [X] Não deve ser possível cadastrar uma conta com CPF já existente
+* [X] Deve ser possível buscar o extrato bancário do cliente
+   * [X] Não deve ser possível buscar extrato em uma conta não existente
+* [X] Deve ser possível realizar um depósito
+   * [X] Não deve ser possível fazer depósito em uma conta não existente
+* [X] Deve ser possível realizar um saque
+   * [X] Não deve ser possível fazer saque em uma conta não existente
+   * [X] Não deve ser possível fazer saque quando o saldo for insuficiente
+* [X] Deve ser possível buscar o extrato bancário do cliente por data
+* [X] Deve ser possível atualizar dados da conta do cliente
+* [X] Deve ser possível obter dados da conta do cliente
+* [X] Deve ser possível deletar uma conta
+   * [X] Não deve ser possível excluir uma conta não existente
+* [X] Deve ser possível retornar o balance
 
 ## 🌐 Arquivo Insomnia com os Endpoints
 - [FinAPI - Insomnia JSON](https://github.com/brunoeduardoferreiradev/curso-ignite-nodejs/tree/main/capitulo01/primeiro-projeto-com-nodejs/finapi/insomnia-file)
