@@ -61,8 +61,22 @@ path: /api/journey-nodes
 scheme: https
 referer: https://app.rocketseat.com.be/node
 ```
+
 > Query Params
 - http://enderecoservidor.com.br/v1/users?<b>page=2&limit=50</b>
-- Chave
-- Valor
-- Separaçao
+- Chave : page / limit
+- Valor : 2 / 50
+- Separaçao : &
+
+> Route Params
+- http://enderecodoservidor.com.br/v1/users/<b>{id}</b>
+
+> Body Params
+```json
+{
+"name":"Bruno",
+"username":"bruno",
+}
+```
+### Boas práticas API REST
+
