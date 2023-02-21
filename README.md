@@ -30,8 +30,8 @@
 
 ## Ementa
 * 📁- Capítulo 01
-  * 📌- Fundamentos do NodeJS - ✔
-  * 📌- Primeiro Projeto com NodeJS - ✔
+  * 📌- [Fundamentos do NodeJS](https://github.com/brunoeduardoferreiradev/curso-ignite-nodejs/tree/main/capitulo01/fundamentos-nodejs) - ✔
+  * 📌- [Primeiro Projeto com NodeJS](https://github.com/brunoeduardoferreiradev/curso-ignite-nodejs/tree/main/capitulo01/primeiro-projeto-com-nodejs) - ✔
   * ⚔ - Desafio: Conceitos do Node.js 
   * ⚔ - Desafio: Trabalhando com Middlewares
   * ⚔ - Desafio: Corrigindo o código
