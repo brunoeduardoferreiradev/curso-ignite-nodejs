@@ -31,7 +31,7 @@
 ## Ementa
 * 📁- Capítulo 01
   * 📌- Fundamentos do NodeJS - ✔
-  * 📌- Primeiro Projeto com NodeJS
+  * 📌- Primeiro Projeto com NodeJS - ✔
   * ⚔ - Desafio: Conceitos do Node.js 
   * ⚔ - Desafio: Trabalhando com Middlewares
   * ⚔ - Desafio: Corrigindo o código
