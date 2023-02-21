@@ -16,8 +16,8 @@
 * [✔] Deve ser possível criar uma conta
    * [✔] Não deve ser possível cadastrar uma conta com CPF já existente
 * [✔] Deve ser possível buscar o extrato bancário do cliente
-   * [❌] Não deve ser possível buscar extrato em uma conta não existente
-* [❌] Deve ser possível realizar um depósito
+   * [✔] Não deve ser possível buscar extrato em uma conta não existente
+* [✔] Deve ser possível realizar um depósito
    * [✔] Não deve ser possível fazer depósito em uma conta não existente
 * [❌] Deve ser possível realizar um saque
    * [❌] Não deve ser possível fazer saque em uma conta não existente
