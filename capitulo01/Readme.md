@@ -92,3 +92,14 @@ referer: https://app.rocketseat.com.be/node
     * http://enderecodoservidor.com.br/v1/users/1
   * Atualização do Status de um usuário - PATCH 
     * http://enderecodoservidor.com.br/v1/users/1/status
+
+
+### Criando um Projeto NodeJS
+```bash
+# Cria o arquivo package.json
+$ yarn init -y
+
+```
+
+
+
