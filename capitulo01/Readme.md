@@ -62,3 +62,7 @@ scheme: https
 referer: https://app.rocketseat.com.be/node
 ```
 > Query Params
+- http://enderecoservidor.com.br/v1/users?<b>page=2&limit=50</b>
+- Chave
+- Valor
+- Separaçao
