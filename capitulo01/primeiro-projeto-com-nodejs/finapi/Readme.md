@@ -28,3 +28,9 @@
 * [✔] Deve ser possível deletar uma conta
    * [✔] Não deve ser possível excluir uma conta não existente
 * [✔] Deve ser possível retornar o balance
+
+## 🌐 Arquivo Insomnia com os Endpoints
+- [FinAPI - Insomnia JSON](https://github.com/brunoeduardoferreiradev/curso-ignite-nodejs/tree/main/capitulo01/primeiro-projeto-com-nodejs/finapi/insomnia-file)
+
+## 📌 Endpoints
+
