@@ -53,7 +53,7 @@
 
 ### Parâmetros das Requisições
 
-#### Header Params
+> Header Params
 ```
 authority: app.rocketseat.com.br
 method: GET
@@ -61,3 +61,4 @@ path: /api/journey-nodes
 scheme: https
 referer: https://app.rocketseat.com.be/node
 ```
+> Query Params
