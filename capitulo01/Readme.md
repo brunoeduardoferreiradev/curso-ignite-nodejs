@@ -79,4 +79,16 @@ referer: https://app.rocketseat.com.be/node
 }
 ```
 ### Boas práticas API REST
-
+* Utilização correta dos métodos HTTP
+* Utilização correta dos status no retorno das respostas 
+* Padrão de nomenclatura
+  * Busca de usuários - GET 
+    * http://enderecodoservidor.com.br/v1/users
+  * Busca de usuários por id - GET 
+    * http://enderecodoservidor.com.br/v1/users/1
+  * Busca de endereço do usuário - GET 
+    * http://enderecodoservidor.com.br/v1/users/1/address
+  * Deleção de um usuário - DELETE 
+    * http://enderecodoservidor.com.br/v1/users/1
+  * Deleção de um usuário - PATCH 
+    * http://enderecodoservidor.com.br/v1/users/1/status
