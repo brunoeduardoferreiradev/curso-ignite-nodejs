@@ -104,6 +104,9 @@ $ yarn add express
 
 # Instalar o Nodemon ( como dependencia de desenvolvimento )
 $ yarn add nodemon -D
+
+# Executar a Aplicaçao depois de instalar o nodemon
+$ yarn dev
 ```
 
 
