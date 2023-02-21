@@ -90,5 +90,5 @@ referer: https://app.rocketseat.com.be/node
     * http://enderecodoservidor.com.br/v1/users/1/address
   * Deleção de um usuário - DELETE 
     * http://enderecodoservidor.com.br/v1/users/1
-  * Deleção de um usuário - PATCH 
+  * Atualização do Status de um usuário - PATCH 
     * http://enderecodoservidor.com.br/v1/users/1/status
