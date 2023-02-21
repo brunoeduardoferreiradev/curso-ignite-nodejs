@@ -99,6 +99,11 @@ referer: https://app.rocketseat.com.be/node
 # Cria o arquivo package.json
 $ yarn init -y
 
+# instalar o Express ( MicroFramework HTTP )
+$ yarn add express
+
+# Instalar o Nodemon ( como dependencia de desenvolvimento )
+$ yarn add nodemon -D
 ```
 
 
