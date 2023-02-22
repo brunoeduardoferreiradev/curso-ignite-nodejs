@@ -32,5 +32,21 @@
 ## 🌐 Arquivo Insomnia com os Endpoints
 - [FinAPI - Insomnia JSON](https://github.com/brunoeduardoferreiradev/curso-ignite-nodejs/tree/main/capitulo01/primeiro-projeto-com-nodejs/finapi/insomnia-file)
 
+<br/>
+
 ## 📌 Endpoints
 
+
+> BaseURL : http://localhost:3333
+
+|Verbo      | Endpoint        | Descrição                                                                       |
+|-----------|-----------------|---------------------------------------------------------------------------------|
+|**GET**    | /account        |  Endpoint para trazer os dados da conta de um usuário informando o cpf do mesmo |
+|**PUT**    | /account        |  Endpoint para atualização do nome do usuário da Conta                          |
+|**POST**   | /account        |  Endpoint para Criar uma conta quando passamos um cpf e um nome de usuário      |
+|**DELETE** | /account        |  Endpoint para efetuar a exclusão da conta de um usuário                        |
+|**GET**    | /statement      |  Endpoint traz o extrato do usuario                                             |
+|**GET**    | /statement/date |  Endpoint traz o extrato do usuário por data                                    |
+|**POST**   | /deposit        |  Endpoint que cria um depósito na conta do usuário                              |
+|**POST**   | /withdraw       |  Endpoint que faz um saque na conta do usuario                                  |
+|**GET**    | /balance        |  Endpoint que traz o valor do saldo da conta do usuário                         |
