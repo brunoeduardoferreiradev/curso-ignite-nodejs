@@ -27,15 +27,15 @@ function checksExistsUserAccount(request, response, next) {
 
 //POST /users - Cadastra o Usuário
 app.post('/users', (request, response) => {
-  const { name, username } = request.body;
+  const { name, username } = request.body; s
 
-  // Procura dentro de users pra ver se ja existe um username
-  const userAlreadyExists = users.some(
+  // Procura dentro de users pra ver se ja existe um username retorna um booleano
+  const userAlreadyExists = users.find(
     (user) => user.username === username);
 
   // Se o username ja existir retorna um erro 400 e uma mensagem de erro  
   if (userAlreadyExists) {
-    return response.status(400).json({ error: "Usuário já existe" })
+    return response.status(400).json({ error: "Username already exists" })
   }
 
   const user = {
@@ -47,7 +47,7 @@ app.post('/users', (request, response) => {
 
   users.push(user);
 
-  return response.status(201).json({ message: user }).send();
+  return response.status(201).json(user);
 });
 
 //GET /todos - Traz os Todos
@@ -85,7 +85,20 @@ app.patch('/todos/:id/done', checksExistsUserAccount, (request, response) => {
 });
 
 app.delete('/todos/:id', checksExistsUserAccount, (request, response) => {
-  // Complete aqui
+  const { user } = request;
+  const { id } = request.params;
+
+  // retorna o index do registro no array
+  const todo = user.todos.findIndex((todo) => todo.id === id);
+
+  // verifica se o registro de todo existe
+  if (todo === -1) {
+    return response.status(404).json({ error: "Todo not found" })
+  }
+  // exclui o todo encontrado 
+  user.todos.splice(todo, 1);
+
+  return response.status(204).json();
 });
 
 module.exports = app;
